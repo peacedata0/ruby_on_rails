@@ -4,7 +4,6 @@
     <list default="true" id="2244ad2d-7e81-446b-84d5-13f3fd82f38a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change beforePath="$PROJECT_DIR$/app/views/posts/show.html.erb" afterPath="$PROJECT_DIR$/app/views/posts/show.html.erb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -94,8 +93,8 @@
       <file leaf-file-name="application.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="962">
-              <caret line="52" column="6" lean-forward="false" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
+            <state relative-caret-position="416">
+              <caret line="43" column="89" lean-forward="false" selection-start-line="43" selection-start-column="89" selection-end-line="43" selection-end-column="89" />
               <folding />
             </state>
           </provider>
@@ -347,7 +346,7 @@
       <workItem from="1519049216720" duration="3241000" />
       <workItem from="1519053488036" duration="8644000" />
       <workItem from="1519064938139" duration="5328000" />
-      <workItem from="1519081589676" duration="8004000" />
+      <workItem from="1519081589676" duration="8771000" />
     </task>
     <task id="LOCAL-00001" summary="add posts crud">
       <created>1519055920052</created>
@@ -391,11 +390,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519087077280</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="change style">
+      <created>1519090148686</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1519090148686</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38374000" />
+    <option name="totallyTimeSpent" value="39141000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -441,7 +447,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add posts crud" />
     <MESSAGE value="add bootstrap" />
-    <option name="LAST_COMMIT_MESSAGE" value="add bootstrap" />
+    <MESSAGE value="change style" />
+    <option name="LAST_COMMIT_MESSAGE" value="change style" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -794,8 +801,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="962">
-          <caret line="52" column="6" lean-forward="false" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
+        <state relative-caret-position="416">
+          <caret line="43" column="89" lean-forward="false" selection-start-line="43" selection-start-column="89" selection-end-line="43" selection-end-column="89" />
           <folding />
         </state>
       </provider>

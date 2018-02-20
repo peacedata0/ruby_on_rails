@@ -18,17 +18,18 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
+        <%= link_to 'Новая статья', new_post_path, class: 'btn btn-outline-primary pull-xs-right' %>
         <li class="nav-item active">
-          <a class="nav-link" href="<%= posts_path %>">Статьи </a>
+          <a class="btn btn-outline-primary pull-xs-right" href="<%= posts_path %>">Статьи </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Обо мне </a>
+          <a class="btn btn-outline-primary pull-xs-right" href="#">Обо мне </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Контакты </a>
+          <a class="btn btn-outline-primary pull-xs-right" href="#">Контакты </a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <a class="btn btn-outline-primary pull-xs-right" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Менюшка, например..
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -46,10 +47,6 @@
     </div>
   </nav>
 
-  <div class="d-inline p-2 bg-dark text-white">
-  <%= link_to 'Главная страница', root_path %>
-  <%= link_to 'Новая статья', new_post_path %>
-  </div>
     <%= yield %>
   </body>
 </html>
